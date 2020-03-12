@@ -6,10 +6,7 @@
   "scripts": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kongaraju/arkeyjs.git"
-  },
+  "repository": "git+https://github.com/kongaraju/arkeyjs.git",
   "keywords": [
     "arkeyjs"
   ],
