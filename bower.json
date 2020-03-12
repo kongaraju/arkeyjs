@@ -1,0 +1,20 @@
+{
+  "name": "arkeyjs",
+  "description": "",
+  "main": "src/arkey-element.ts",
+  "authors": [
+    "Raju Konga"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "arkeyjs"
+  ],
+  "homepage": "https://github.com/kongaraju/arkeyjs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

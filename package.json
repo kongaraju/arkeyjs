@@ -1,0 +1,22 @@
+{
+  "name": "arkeyjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/arkey-element.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kongaraju/arkeyjs.git"
+  },
+  "keywords": [
+    "arkeyjs"
+  ],
+  "author": "Raju Konga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kongaraju/arkeyjs/issues"
+  },
+  "homepage": "https://github.com/kongaraju/arkeyjs#readme"
+}
