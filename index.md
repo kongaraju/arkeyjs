@@ -1,9 +1,9 @@
 
 ArkeyJS is a custom elements ployfills which can run on any browser irrespective the supported webcomponents custom elments specification.
 
-### To create register a new Element
+### To create and register a new custom element
 
-
+```js
     import {ARKElementsFactory, ARKElement} from 'arkeyjs';
 
     class ElementClass extends ARKElement {
@@ -18,3 +18,5 @@ ArkeyJS is a custom elements ployfills which can run on any browser irrespective
     }
 
     ARKElementsFactory.register('element-name', ElementClass);
+```
+
