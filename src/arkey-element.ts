@@ -9,6 +9,7 @@ export interface ARKElementBaseController {
   onInit();
   onRender();
   onConnected();
+  onAdopted();
   onAttributeChanged(attrName: string, oldVal, newVal);
   onDisconnected();
 }
@@ -79,6 +80,13 @@ export class ARKElement extends HTMLElement {
     this._isConnected = true;
   }
   protected onConnected() {}
+  public adoptedCallback(){
+    this._onAdopted();
+  }
+  private _onAdopted(){
+    this.onAdopted();
+  }
+  protected onAdopted() {}
   attributeChangedCallback(attrName: string, oldVal, newVal) {
     this.onAttributeChanged(attrName, oldVal, newVal);
   }
