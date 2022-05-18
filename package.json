@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/arkey-element.ts",
   "scripts": {
-    "test": "test"
+    "test": ""
   },
   "repository": "git+https://github.com/kongaraju/arkeyjs.git",
   "keywords": [
